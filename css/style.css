@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/shttefan-viNPa2F7fnw-unsplash.jpg);
+    background-size: cover;
+}
+.div1{
+    margin: 60px 20px;
+    animation-delay: 1s;
+}
+.div2{
+    margin: 130px 1363px;
+    animation-delay: 4s;
+}
+.div3{
+    margin: 200px 20px;
+    animation-delay: 7s;
+}
+.div4{
+    margin: 270px 1363px;
+    animation-delay: 10s;
+}
+.div5{
+    margin: 340px 20px;
+    animation-delay: 13s;
+}
+.div6{
+    margin: 410px 1363px;
+    animation-delay: 16s;
+}
+.div7{
+    margin: 480px 20px;
+    animation-delay: 19s;
+}
+.div8{
+    margin: 550px 1363px;
+    animation-delay: 22s;
+}
+.div1 , .div2 , .div3 , .div4 , .div5 , .div6 , .div7 , .div8 {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+}
+.div1 ,.div3 , .div5 , .div7{
+animation-name: Engi;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+left: 20px;
+}
+.div2 ,.div4 , .div6 , .div8{
+    animation-name: Eiad;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes Engi{
+    from{
+        left: 20px;
+    }
+    to{
+        left: 1343px;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes Eiad{
+    from{
+left: 0;
+    }
+    to{
+        left: -1323px;
+        transform: rotateY(180deg);
+    }
+}
